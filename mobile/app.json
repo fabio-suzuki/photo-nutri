@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "PhotoNutri",
+    "slug": "photo-nutri",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.photonutri.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#22c55e",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.photonutri.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "openaiApiKey": ""
+    }
+  }
+}
